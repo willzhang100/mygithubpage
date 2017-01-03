@@ -1,12 +1,13 @@
 html {
-    height: 100%;
+    background-color: #eeeeee;
 }
 body {
-    margin: 60px auto;
-    width: 75%;
+    background-color: #fafafa;
+    margin: 0px auto;
+    width: 90%;
+    font-family: 'Avenir', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -28,18 +29,15 @@ nav ul li a:hover, footer ul li a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #424242;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -52,4 +50,12 @@ ul.posts li {
 ::selection {
     background-color: #e53935;
     color: white;
+}
+
+.container {
+    padding: 15px 30px;
+}
+
+.shadow {
+    box-shadow: -5px 5px 5px #888888;
 }
