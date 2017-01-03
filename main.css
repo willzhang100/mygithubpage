@@ -1,23 +1,30 @@
+html {
+    height: 100%;
+}
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 75%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    overflow: hidden;
+    background-color: #424242;
 }
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+    float: left;
 }
-a {
+nav ul li a, footer ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #999;
 }
-a:hover {
-    text-decoration: underline;
+nav ul li a:hover, footer ul li a:hover {
+    background-color: #e53935;
 }
 h1 {
     font-size: 3em;
@@ -40,4 +47,9 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+::selection {
+    background-color: #e53935;
+    color: white;
 }
