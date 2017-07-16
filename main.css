@@ -1,3 +1,8 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
 html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
@@ -24,41 +29,55 @@ p {
 }
 
 .panel {
-  text-align: center;
+  /*text-align: center;*/
+  padding: 75px 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #header {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200px;
+  /*top: 0;
+  left: 0;*/
   background-color: #FAFAFA;
-  line-height: 100px;
+  padding: 200px;
 }
 
 .name {
-  padding: 50px 0;
+  /*padding: 50px 0;*/
   font-size: 40px;
 }
 
 #about {
   background-color: #3D8EB9;
   color: #FFFFFF;
-  height: 270px;
 }
 
 .subtitle {
-  margin-top: 0;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  line-height: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
 }
 
 #projects {
   background-color: #E6DCDB;
-  height: 1000px;
 }
 
+#experience {
+  background-color: #3D8EB9;
+  color: #FFFFFF;
+}
+
+#rc {
+  background-color: #FAFAFA;
+}
+
+footer {
+  background-color: #3D8EB9;
+  color: #FFFFFF;
+  width: 100%;
+}
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
