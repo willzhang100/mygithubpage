@@ -78,30 +78,34 @@ p {
   color: #FFFFFF;
 }
 
+footer {
+  padding: 10px 200px;
+  background-color: #3D8EB9;
+}
 nav ul, footer ul {
-    padding: 0px;
+    margin: 0;
     list-style: none;
     font-weight: bold;
     overflow: hidden;
-    background-color: #424242;
 }
+
 nav ul li, footer ul li {
     float: left;
 }
+
 nav ul li a, footer ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 20px;
+    border: 1px;
+    border-color: #FFFFFF;
     text-decoration: none;
 }
 nav ul li a:hover, footer ul li a:hover {
     background-color: #e53935;
 }
 
-footer {
-    font-size: .8em;
-}
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
