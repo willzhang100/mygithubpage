@@ -61,7 +61,7 @@ p {
 }
 
 #projects {
-  background-color: #E6DCDB;
+  background-color: #FAFAFA;
 }
 
 #experience {
@@ -73,11 +73,11 @@ p {
   background-color: #FAFAFA;
 }
 
-footer {
+#contact {
   background-color: #3D8EB9;
   color: #FFFFFF;
-  width: 100%;
 }
+
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
