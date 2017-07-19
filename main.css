@@ -73,34 +73,40 @@ p {
   background-color: #FAFAFA;
 }
 
+/**
 #contact {
   background-color: #3D8EB9;
   color: #FFFFFF;
 }
+**/
 
 footer {
-  padding: 10px 200px;
+  padding: 0 100px;
   background-color: #3D8EB9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
+
 nav ul, footer ul {
-    margin: 0;
-    list-style: none;
-    font-weight: bold;
-    overflow: hidden;
+  margin: 0;
+  list-style: none;
+  font-weight: bold;
+  overflow: hidden;
 }
 
 nav ul li, footer ul li {
-    float: left;
+  float: left;
 }
 
 nav ul li a, footer ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    border: 1px;
-    border-color: #FFFFFF;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  border: 1px;
+  border-color: #FFFFFF;
+  text-decoration: none;
 }
 nav ul li a:hover, footer ul li a:hover {
     background-color: #e53935;
