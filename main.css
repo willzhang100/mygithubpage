@@ -1,4 +1,5 @@
-/***  CSS reset ***/
+
+/* ---------->>> CSS RESET <<<-----------*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +22,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
+/* ---------->>> HTML5 DISPLAY-ROLE RESET FOR OLDER BROWSERS <<<-----------*/
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -50,7 +52,7 @@ table {
 	border-spacing: 0;
 }
 
-/*** High level ***/
+/* ---------->>> GLOBAL <<<-----------*/
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -59,9 +61,27 @@ table {
 
 body {
   font-size: 20px;
-  color: #3a3a3a;
 	font-family: 'Vollkorn', serif;
+	color: #3a3a3a;
 }
+
+a {
+	color: #c0392b;
+	text-decoration: none;
+} a:hover {
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+	font-family: 'Unica One', cursive;
+	text-transform: uppercase;
+}
+
+p {}
+
+/* ---------->>> PAGE STRUCTURE <<<-----------*/
 
 .container {
   padding-top: 20px;
@@ -79,11 +99,38 @@ body {
   margin-bottom: 15px;
 }
 
+/* ---------->>> HEADINGS <<<-----------*/
+
+.heading {
+	font-size: 3em;
+}
+
+.subheading, .item-title {
+	color: #c0392b;
+}
+
+.section-heading {
+	font-size: 2em;
+}
+
+.small-description {
+	margin-bottom: 10px;
+}
+
+/* ---------->>> FOOTER <<<-----------*/
+
 .social {
 	margin-top: 3em;
   display: block;
   list-style: none;
   text-align: center;
+}
+
+.social a {
+  color: #c0392b;
+} .social a:hover {
+	color: #FFFFFF;
+	background: #c0392b;
 }
 
 .button {
@@ -96,12 +143,15 @@ body {
 	margin: 1rem 0.5rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-weight: bold;
-  margin-bottom: 15px;
-	font-family: 'Unica One', cursive;
+.copyright {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 1em;
 	text-transform: uppercase;
+	font-family: 'Unica One', cursive;
 }
+
+/* ---------->>> EXTRA <<<-----------*/
 
 .underline {
   display: block;
@@ -112,45 +162,7 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #3a3a3a;
 }
 
-.section-title {
-	font-size: 2em;
-}
-
-.subheading, .project-title, .experience-title {
-	color: #c0392b;
-}
-
-.social a {
-  color: #c0392b;
-} .social a:hover {
-	color: #FFFFFF;
-	background: #c0392b;
-}
-
-a {
-	color: #c0392b;
-	text-decoration: none;
-} a:hover {
-	text-decoration: underline;
-}
-
-.copyright {
-	text-align: center;
-	margin-top: 25px;
-	font-size: 1em;
-	text-transform: uppercase;
-	font-family: 'Unica One', cursive;
-}
-
-.time {
-	margin-bottom: 10px;
-}
-
 .coursework {
 	padding-left: 20px;
 	list-style: circle;
-}
-
-.name {
-	font-size: 3em;
 }
