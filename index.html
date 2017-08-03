@@ -2,112 +2,112 @@
 <html>
   <head>
     <title>Will Zhang</title>
-	  <!-- link to main.css -->
-	  <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Unica+One|Vollkorn" rel="stylesheet">
   </head>
+
   <body>
+    <div class="page-wrap">
+      <header>
+        <div class="container">
+          <div class="content">
+            <h1 class="name">Will Zhang</h1>
+            <h2 class="subheading">CS & Mathematics Student</h2>
+          </div>
+        </div>
+      </header>
 
-    <!-- Navigation bar
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#projects">Projects</a>
-        </li><li><a href="#about">About</a>
-        </li><li><a href="#contact">Contact</a></li>
-    	</ul>
-	  </nav> -->
-    <!-- Header -->
+      <div class="container">
+        <div class="content">
+          <h2 class="section-title">About</h2>
+          <span class="underline"></span>
+          <p>
+            I am currently a freshman attending the University of Massachusetts Amherst studying computer science and mathematics. I am interested a wide variety of topics in computer science including cryptography, neural networks, robotics, and natural language processing. In my free time I enjoy playing the guitar, practicing Brazilian Jiu-Jitsu, and reading books.
+          </p>
+        </div>
+      </div>
 
-    <div id="header" class="panel">
-      <div>
-        <div class="name"> Hello, I'm Will Zhang. </div>
+      <div class="container">
+        <div class="content">
+          <h2 class="section-title">Projects</h2>
+          <span class="underline"></span>
+          <div class="content-item">
+            <h3 class="project-title">Jedi Maze Game</h3>
+            <p>
+              For Hack UMass 2016, <a href="http://alexfischer.me/">Alex Fischer</a> and I built a ball maze that could be controlled remotely using a Leap Motion sensor, a Raspberry Pi, and servos.
+            </p>
+          </div>
+          <div class="content-item">
+            <h3 class="project-title">Game of Life</h3>
+            <p>
+              I am fascinated by cellular automata so I made a program that renders Conway's game of life using Tkinter.
+            </p>
+          </div>
+          <div class="content-item">
+            <h3 class="project-title">Loop</h3>
+            <p>
+              For Hack Holyoke 2016, <a href="http://alexfischer.me/">Alex Fischer</a> and I created a prototype bike lock that could be unlocked via Android using BLE.
+            </p>
+          </div>
+          <div class="content-item">
+            <h3 class="project-title">Mandelbrot Renderer</h3>
+            <p>
+              Renders the famous Mandelbrot fractal using Matplotlib.
+            </p>
+          </div>
+          <div class="content-item">
+            <h3 class="project-title">Cassium</h3>
+            <p>
+              For Hamp Hack 2017, <a href="http://alexfischer.me/">Alex Fischer</a> and I built an Android app that automatically takes group photos only when everybody is in frame and smiling. This app utilizes Indico's machine learning API for recognizing facial features.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- About -->
-    <div id="about" class="panel">
-      <div>
-        <h1 class="subtitle"> About </h1>
-        <p>
-           I am currently a freshman attending the University of Massachusetts Amherst studying computer science and mathematics.
-           I am interested a wide variety of topics in computer science including cryptography, neural networks, robotics, and natural language processing.
-           In my free time I enjoy playing the guitar, practicing Brazilian Jiu-Jitsu, and reading books.
-        </p>
+
+      <div class="container">
+        <div class="content">
+          <h2 class="section-title">Work Experience</h2>
+          <span class="underline"></span>
+          <div class="content-item">
+            <div class="time">Summer 2017</div>
+            <h3 class="experience-title">Bioinformatics and Integrative Biology Lab at UMass Medical School</h3>
+            <p>Developing software that analyzes large ChIP-seq/ATAC-seq/DNase-seq datasets for human and mouse. Visualized large datasets using R.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- Projects -->
-    <div id="projects" class="panel">
-      <div>
-        <h1 class="subtitle"> Projects </h1>
-          <h2>Jedi Maze Game</h2>
-          <p>
-            For Hack UMass 2016, my <a href="http://www.alexfischer.me">partner</a> and I built a ball maze that could be controlled remotely using a Leap Motion sensor.
-          </p>
-          <h2>Game of Life</h2>
-          <p>
-            A program that renders Conway's Game of Life. Built using Python's Tkinter library.
-          </p>
-          <h2>Mandelbrot Renderer</h2>
-          <p>
-            A program that renders the Mandelbrot set. Built using Python.
-          </p>
-          <h2>Cassium</h2>
-          <p>
-            For Hamp Hack 2017, my <a href="http://www.alexfischer.me">partner</a> and I built an app that automatically takes group photos only when everybody is in frame and smiling. Utilizes Indico's machine learning API.
-          </p>
-          <h2>Loop</h2>
-          <p>
-            Won Best Hardware Hack for Hack Holyyoke 2016 for a prototype bike lock that could be controlled via Android app using Bluetooth Low Energy. Lock was made using servo motors and modelling clay. Partner: <a href="http://www.alexfischer.me">Alex Fischer</a>.
-          </p>
+
+      <div class="container">
+        <div class="content">
+          <h2 class="section-title">Relevant Coursework</h2>
+          <span class="underline"></span>
+          <ul class="coursework">
+            <li><p>Programming with Data Structures</p></li>
+            <li><p>Computer System Principles</p></li>
+            <li><p>Reasoning Under Uncertainty</p></li>
+            <li><p>Multivariate Calculus</p></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <!-- Experience -->
-    <div id="experience" class="panel">
-      <div>
-        <h1 class="subtitle"> Work Experience </h1>
-        <h2>Bioinformatics and Integrative Biology Lab at UMass Medical School</h2>
-        <h3>Summer 2017</h3>
-        <p>
-          Developing software that analyzes large ChIP-seq/ATAC-seq/DNase-seq datasets for human and mouse. Visualized large datasets using R.
-        </p>
-      </div>
-    </div>
-    <!-- Relevant Coursework -->
-    <div id="rc" class="panel">
-      <div>
-        <h1 class="subtitle"> Relevant Coursework </h1>
-        <ul>
-          <li>Programming with Data Structures</li>
-          <li>Computer System Principles</li>
-          <li>Reasoning Under Uncertainty</li>
-          <li>Multivariate Calculus</li>
-        </ul>
-      </div>
-    </div>
-    <!-- Contact
-    <div id="contact" class="panel">
-      <div>
-        <h1 class="subtitle"> Contact </h1>
-        <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Pellentesque aliquam, urna in fermentum gravida, dolor mauris suscipit tellus, non tincidunt lectus massa quis leo.
-           Nunc convallis consequat luctus. Maecenas mollis aliquet commodo.
-           Phasellus vehicula dictum tristique.
-           Suspendisse eu felis tincidunt, viverra tortor at, luctus diam.
-        </p>
-      </div>
-    </div>
-  -->
-    <!-- Footer -->
-    <footer>
-      <div>
-        <ul>
-          <li><a href="mailto:willzhang100@gmail.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/in/will-zhang-a0bb75130/">LinkedIn</a></li>
-          <li><a href="https://www.github.com/willzhang100">Github</a></li>
-        <ul>
-      </div>
-      <!-- <p>©2017 Will Zhang</p> -->
-    </footer>
+      <footer>
+        <div class="container">
+          <div class="content">
+            <div class="social">
+              <a href="mailto:willzhang100@gmail.com" class="button">
+                <i class="fa fa-envelope fa" aria-hidden="true"> Email</i>
+              </a>
+              <a href="https://www.linkedin.com/in/will-zhang-a0bb75130/" class="button">
+                <i class="fa fa-linkedin fa" aria-hidden="true"> LinkedIn</i>
+              </a>
+              <a href="https://github.com/willzhang100" class="button">
+                <i class="fa fa-github fa" aria-hidden="true"> Github</i>
+              </a>
+            </div>
+            <div class="copyright">&#169; 2017 William Zhang</div>
+          </div>
+        </div>
+      </footer>
+    </div> <!-- end pagewrap -->
   </body>
 </html>

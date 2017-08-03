@@ -1,135 +1,146 @@
+/***  CSS reset ***/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*** High level ***/
+
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
 
-html {
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-
 body {
-  margin: 0;
-  font-size: 14px;
-  line-height: 20px;
-  font-family: 'Bree Serif', serif;
-  color: #333333;
-  background-color: #FFFFFF;
-  -webkit-font-smoothing: antialiased;
-}
-
-p {
-  font-family: 'Open sans', sans-serif;
-  width: 700px;
-  margin: 0 auto;
   font-size: 20px;
-  line-height: 28px;
-  text-align: left;
-}
-
-.panel {
-  /*text-align: center;*/
-  padding: 75px 100px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#header {
-  /*top: 0;
-  left: 0;*/
-  background-color: #FAFAFA;
-  padding: 200px;
-}
-
-.name {
-  /*padding: 50px 0;*/
-  font-size: 40px;
-}
-
-#about {
-  background-color: #3D8EB9;
-  color: #FFFFFF;
-}
-
-.subtitle {
-  margin-bottom: 40px;
-  font-weight: bold;
-}
-
-#projects {
-  background-color: #FAFAFA;
-}
-
-#experience {
-  background-color: #3D8EB9;
-  color: #FFFFFF;
-}
-
-#rc {
-  background-color: #FAFAFA;
-}
-
-#rc ul li {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-/**
-#contact {
-  background-color: #3D8EB9;
-  color: #FFFFFF;
-}
-**/
-
-footer {
-  padding: 0 100px;
-  background-color: #3D8EB9;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-nav ul, footer ul {
-  margin: 0;
-  list-style: none;
-  font-weight: bold;
-  overflow: hidden;
-}
-
-nav ul li, footer ul li {
-  float: left;
-}
-
-nav ul li a, footer ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 20px;
-  border: 1px;
-  border-color: #FFFFFF;
-  text-decoration: none;
-}
-nav ul li a:hover, footer ul li a:hover {
-    background-color: #e53935;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-::selection {
-    /*background-color: #e53935;
-    color: white;*/
+  color: #3a3a3a;
+	font-family: 'Vollkorn', serif;
 }
 
 .container {
-    padding: 15px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  max-width: 35em;
+}
+
+.content-item {
+  margin-bottom: 15px;
+}
+
+.social {
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c0392b;
+	border-radius: 3px;
+  padding: 0.5em;
+	margin: 1rem 0.5rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+	font-family: 'Unica One', cursive;
+	text-transform: uppercase;
+}
+
+.underline {
+  display: block;
+  width: 100px;
+  margin-top: 25px;
+	margin-bottom: 35px;
+  height: 2px;
+  background-color: #3a3a3a;
+}
+
+.section-title {
+	font-size: 2em;
+}
+
+.subheading, .project-title, .experience-title {
+	color: #c0392b;
+}
+
+a {
+  color: #c0392b;
+} a:hover {
+	color: #FFFFFF;
+	background: #c0392b;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 0.8em;
+}
+
+.time {
+	margin-bottom: 10px;
+}
+
+.coursework {
+	padding-left: 20px;
+	list-style: circle;
+}
+
+.name {
+	font-size: 3em;
 }
