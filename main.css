@@ -80,6 +80,7 @@ body {
 }
 
 .social {
+	margin-top: 3em;
   display: block;
   list-style: none;
   text-align: center;
@@ -88,10 +89,10 @@ body {
 .button {
   display: inline-block;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: #c0392b;
-	border-radius: 3px;
-  padding: 0.5em;
+	border-radius: 5px;
+  padding: 0.5em 1em;
 	margin: 1rem 0.5rem;
 }
 
@@ -119,17 +120,26 @@ h1,h2,h3,h4,h5,h6 {
 	color: #c0392b;
 }
 
-a {
+.social a {
   color: #c0392b;
-} a:hover {
+} .social a:hover {
 	color: #FFFFFF;
 	background: #c0392b;
+}
+
+a {
+	color: #c0392b;
+	text-decoration: none;
+} a:hover {
+	text-decoration: underline;
 }
 
 .copyright {
 	text-align: center;
 	margin-top: 25px;
-	font-size: 0.8em;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: 'Unica One', cursive;
 }
 
 .time {
@@ -143,4 +153,7 @@ a {
 
 .name {
 	font-size: 3em;
+}
+
+.copyright {
 }
